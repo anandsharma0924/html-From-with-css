@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+     <link rel="stylesheet" href="new.css">
+<style>
+    body {
+    background-color: rgb(43, 204, 225);
+}
+
+.hp {
+    color: white;
+    font-family: 'Courgette', cursive;
+    font-family: 'Kalam', cursive;
+    text-align: center;
+}
+
+.div1 {
+    text-align: left;
+    margin: 15px;
+    color: white;
+    padding: 20px;
+    margin-left: 450px;
+    background-color: rgb(10, 10, 87);
+    width: 40%;
+    height: auto;
+}
+
+.div2 {
+    color: white;
+}
+
+#student {
+    width: 100%;
+    height: 25px;
+}
+
+.text {
+    width: 99%;
+    height: 50px;
+}
+
+input[type=submit] {
+    background-color: green;
+    border: none;
+    color: white;
+    text-align: center;
+    text-decoration: none;
+    cursor: pointer;
+    width: 100%;
+    padding: 5px;
+}
+</style>
+
+    </head>
+
+<body>
+    <form action="", name="star">
+    <div class="hp" >
+        <h1>QuizerMania Survey Form</h1>
+        <p> Thank you for taking the time to help us improve the platform </p>
+    </div>
+
+    <div class="div1">
+        <div class="6"> <label>Name</label><br>
+            <input type="text" name="name" placeholder="Enter the name" id="name" size="85" ><br><br>
+
+            <label>Email</label><br>
+            <input type="text " name="email"  placeholder="Enter the Email" id="email" size="85"><br><br>
+            
+            <label> Age (optional)</lable><br>
+        </div>
+
+        <input type="age" name="age"  placeholder="Enter the age" id="age" size="85"><br><br>
+
+        <div class="div2">
+            <label for="student"> Which option best describes your current role? :</label><br>
+            <select id="student" name="student" size="1">
+                <option value="student"> Select current role</option>
+                <option value="student"> 1. student</option>
+                <option value="job">2. Job</option>
+                <option value="business">3. business</option>
+            </select>
+        </div><br>
+
+        <div class="div3">
+
+
+            <label for="redio"> Would you recommend QuizerMania to a firend?</label><br>
+            <input type="radio" id="html" name="not" value="Definitely">
+            <label>Definitely</label><br />
+            <input type="radio" id="html" name="not" value="Maybe">
+            <label>Maybe</label><br />
+            <input type="radio" id="html" name="not" value="Not sure ">
+            <label>Not sure</label><br><br>
+
+        </div>
+
+
+        <div class="div4">
+            <label>What Would you like to see improved ?( Chech all that applay) </label><br>
+            <input type="checkbox" name="Front-end projects" value="font">
+            <lable> Front-end projects</lable><br />
+            <input type="checkbox" name="Back-end projects" value="back">
+            <lable> Back-end projects</lable><br />
+            <input type="checkbox" name="Data visualization" value="data">
+            <lable> Data visualization</lable><br />
+            <input type="checkbox" name="Challenges" value="font">
+            <lable>Challenges</lable><br />
+            <input type="checkbox" name="Open Source community" value="back">
+            <lable> Open Source community</lable><br />
+            <input type="checkbox" name="Gittes help rooms" value="data">
+            <lable>Gittes help rooms</lable><br />
+            
+            
+        </div><br>
+        <div class="div5">
+            <label>Any comments or suggestion?</label><br>
+            <textarea class="text">Enter your comments or suggestion? </textarea>
+        </div><br>
+
+        <div class="div6">
+            <input type="submit" value="submit">
+        </div>
+    </div>
+</form>
+</body>
+
+</html>
